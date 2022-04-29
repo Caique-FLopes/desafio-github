@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SUPORTE_03"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 12:34:29 "/>
+        <attribute name="created" value="U1VQT1JURV8wMztERVNLVE9QLVZLTkZVVkQ7MjAyMi0wNC0yMDsiMTA6NDk6NTIgIjszMDc1"/>
+        <attribute name="edited" value="U1VQT1JURV8wMztERVNLVE9QLVZLTkZVVkQ7MjAyMi0wNC0yMDsiMTI6MzQ6MjkgIjszOzMxODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, media" type="Integer" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="media" expression="(jan+fev+mar+abr)/4"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;abono de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;sem abono de 10%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

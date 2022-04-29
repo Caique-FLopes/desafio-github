@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SUPORTE_03"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 02:56:44 "/>
+        <attribute name="created" value="U1VQT1JURV8wMztERVNLVE9QLVZLTkZVVkQ7MjAyMi0wNC0yMDsiMTI6Mzc6MDIgIjszMDY5"/>
+        <attribute name="edited" value="U1VQT1JURV8wMztERVNLVE9QLVZLTkZVVkQ7MjAyMi0wNC0yMDsiMDI6NTY6NDQgIjsxOzMxODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite seu sobrenome: &quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Digite sua idade: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;O seu nome &#233;: &quot; &amp; nome &amp; &#13;&#10;&quot; e seu sobrenome &#233;: &quot; &amp; sobrenome &amp; &#13;&#10;&quot; sua idade &#233;: &quot; &amp; idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
